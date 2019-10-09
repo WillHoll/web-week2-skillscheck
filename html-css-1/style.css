@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+    header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    height: 50px;
+}
+nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: #707070;
+    color: #F3F3F3;
+}
+ul {
+    margin: 0;
+    margin-right: 10px;
+    height: 100%;
+    width: 25%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 1rem;
+}
+li {
+    margin-bottom: 10px;
+}
+.company-div {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+}
+.company-div > div {
+    margin-left: 40px;
+}
+.more-you-know {
+    height: 35vh;
+    background-color: #000000;
+    color: #E9E05F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-you-know > div {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+}
+.box-holder {
+    height: 30vh;
+    padding: 0px 40px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.green-box {
+    background-color: #A4FFD7;
+    height: 90%;
+    width: 20%;
+    border-radius: 20px;
+}
+.orange-box {
+    height: 90%;
+    width: 48%;
+    background-color: #FFC36C;
+}
+article {
+    box-sizing: border-box;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-holder {
+    height: 90%;
+    width: auto;
+}
+img {
+    height: 100%;
+    width: auto;
+}
+footer {
+    height: 100px;
+    background-color: #3A3A56;
+}
