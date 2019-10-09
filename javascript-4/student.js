@@ -26,7 +26,7 @@ const me = {
     superHeroName: 'Dev Cat',
     homeTown: 'Ripon',
     superpowers: ['selfsufficiency', 'making websites', 'is cat'],
-    superPowerXP: function() {Math.floor(Math.random() * 100) + 1},
+    superPowerXP: Math.floor(Math.random() * 100) + 1,
     profileImage: `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random()*10)+1}.jpg`
 }
 

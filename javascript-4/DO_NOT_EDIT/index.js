@@ -14,7 +14,7 @@ redactBtn.addEventListener('click', () => redactInfo(me));
 function createLi(text) {
   const item = document.createElement('li');
   text !== 'redacted'
-    ? (item.innerText = `${text} ${me.superPowerXP()}XP`)
+    ? (item.innerText = `${text} ${me.superPowerXP}XP`)
     : (item.innerText = text);
   powersList.appendChild(item);
 }
