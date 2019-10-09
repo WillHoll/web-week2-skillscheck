@@ -27,7 +27,7 @@ const me = {
     homeTown: 'Ripon',
     superpowers: ['selfsufficiency', 'making websites', 'is cat'],
     superPowerXP: () => {return Math.floor(Math.random() * 100) + 1},
-    profileImage: `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random()*10)+1}.jpg`
+    profileImage: () => `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random()*10)+1}.jpg`
 }
 
 //////////////////Step 3////////////////////
